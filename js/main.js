@@ -20,10 +20,10 @@
 					}
 				},
 				messages: {
-					name: "Please enter your name",
-					subject: "Please enter your subject",
-					email: "Please enter a valid email address",
-					message: "Please enter a message"
+					name: "Bitte Name eintragen",
+					subject: "Bitte Betreff eintragen",
+					email: "Bitte korrekte Email eintragen",
+					message: "Bitte Nachricht eintragen"
 				},
 				/* submit via ajax */
 				
@@ -70,7 +70,7 @@
 			            }
 				      },
 				      error: function() {
-				      	$('#form-message-warning').html("Something went wrong. Please try again.");
+				      	$('#form-message-warning').html("Etwas ist schiefgelaufen.");
 				         $('#form-message-warning').fadeIn();
 				         $submit.css('display', 'none');
 				      }
