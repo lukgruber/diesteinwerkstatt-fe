@@ -1,7 +1,7 @@
 <?php
 
 // Replace this with your own email address
-$to = 'diesteinwerkstatt-fe@gmx.at';
+$to = 'office@diesteinwerkstatt-fe.at';
 
 function url(){
   return sprintf(
