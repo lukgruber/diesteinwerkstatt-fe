@@ -14,9 +14,6 @@ header img.img-fluid.rounded-circle.mb-4 {
 footer a {
 	text-decoration: none;
 }
-.py-5.bg-image-full.parallax {
-	background-position-y: -50px;
-}
 header h1 {
 	text-shadow: white 5px 3px 40px;
 	text-transform: uppercase;
