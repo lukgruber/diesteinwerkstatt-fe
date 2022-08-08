@@ -3,15 +3,13 @@
 // Replace this with your own email address
 $to = 'lehnerfelix@gmx.at';
 
-
-
-
-function url() {
-  return
-    (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
-    || $_SERVER['SERVER_PORT'] == 443;
+function url(){
+  return sprintf(
+    "%s://%s",
+    isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
+    $_SERVER['SERVER_NAME']
+  );
 }
-
 
 if($_POST) {
 
