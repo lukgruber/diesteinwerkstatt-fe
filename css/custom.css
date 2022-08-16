@@ -120,6 +120,11 @@ h1 {
 }
 
 /*------*/
+@media(max-width: 415px) {
+	.parallax {
+		background-image: url(assets/steinmauer_small.jpg)!important;
+	}
+}
 
 @media(max-width: 750px) {
     .items {
