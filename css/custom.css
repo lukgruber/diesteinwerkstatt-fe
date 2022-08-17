@@ -22,6 +22,10 @@ header img.img-fluid.rounded-circle.mb-4 {
   z-index: -10;
 }
 
+.py-5.bg-image-full.parallax {
+	background: transparent;
+}
+
 .contact-wrap {
 	display: none;
 }
