@@ -25,6 +25,9 @@ header img.img-fluid.rounded-circle.mb-4 {
 .py-5.bg-image-full.parallax {
 	background: transparent;
 }
+section {
+	background: white;
+}
 
 .contact-wrap {
 	display: none;
