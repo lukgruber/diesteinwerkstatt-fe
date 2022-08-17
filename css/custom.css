@@ -9,6 +9,7 @@ header img.img-fluid.rounded-circle.mb-4 {
 .parallax::before {
   content: ' ';
   display: block;
+  background-image: url(/assets/steinmauer.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
