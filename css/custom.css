@@ -33,6 +33,7 @@ html::before {
   background-image: url(/assets/steinmauer.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
   top: 0;
@@ -167,7 +168,7 @@ h1 {
 
 /*------*/
 @media(max-width: 415px) {
-	.parallax {
+	html::before {
 		background-image: url(/assets/steinmauer_small.jpg)!important;
 	}
 }
