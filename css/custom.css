@@ -1,6 +1,26 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'Timeless';
+    src: url('Timeless-Bold.woff2') format('woff2'),
+        url('Timeless-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Timeless';
+    src: url('Timeless-Normal.woff2') format('woff2'),
+        url('Timeless-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
-	font-family: timeless;
+	font-family: Timeless;
 }
 
 header img.img-fluid.rounded-circle.mb-4 {
