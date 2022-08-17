@@ -2,7 +2,7 @@
 body {
 	font-family: timeless;
 }
-body::before {
+html::before {
 	content: " ";
 	display: block;
 	height: 100vh;
@@ -12,7 +12,7 @@ body::before {
 	left: 0;
 	right: 0;
 	position: fixed;
-	z-index: -10;
+	z-index: -99;
 	background: white;
 }
 header img.img-fluid.rounded-circle.mb-4 {
