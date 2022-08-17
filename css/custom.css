@@ -45,6 +45,9 @@ header h1 {
     color: white;
 }
 
+.contact-form section {
+    background-color: #dfe4ea;
+}
 .contact-form {
     background-color: #dfe4ea;
 }
